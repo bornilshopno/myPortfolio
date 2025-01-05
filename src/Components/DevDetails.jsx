@@ -40,7 +40,7 @@ const DevDetails = () => {
                     </div>
                 </Marquee>
             </div>
-            <div>
+            <div id='projects'>
                 <h2 className='text-center bg-gradient-to-t from-gray-400 to-[#495765] py-10 font-bold text-5xl text-white underline'>Recent Projects</h2>
                 <div className="grid gird-cols-1 lg:grid-cols-3 gap-5 px-10 lg:px-20 pb-16 bg-gradient-to-b from-gray-400 to-gray-800">
                     {/* number-1 */}

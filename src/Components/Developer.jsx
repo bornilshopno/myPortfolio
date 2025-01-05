@@ -10,9 +10,9 @@ const Deveoper = () => {
   return (
     <div className="bg-gradient-to-t from-[#273344] to-[#283848]">
       <Helmet>
-                <title>Ashraf Hossain || Portfolio</title>
-            </Helmet>
-      <div
+        <title>Ashraf Hossain || Portfolio</title>
+      </Helmet>
+      <div id="about"
         className="hero "
         style={{
           backgroundImage: "url(https://i.ibb.co.com/hdkH7W3/shutterstock-535124956-scaled.jpg)",
@@ -26,7 +26,9 @@ const Deveoper = () => {
               {/* <img src="https://i.ibb.co.com/gjycxrZ/IMG-6639.jpg" alt="profile" className=" w-24 rounded-3xl border-x-indigo-700 border-y-amber-400 border-2" /> */}
               <div>
                 <p className=" text-slate-400 font-bold text-lg">I’m a junior web developer with a background in textile engineering. After spending 12 years in the textile industry, I realized that my true passion was in coding, which had always intrigued me. Over the last year, I’ve dedicated my time to exploring web development, building a strong foundation in coding and learning new technologies. Now, I’m excited to pursue a career in web development, where I can combine my creativity with technical skills and develop websites and applications that prioritize user experience and functionality. I’m always eager to learn and grow, and I’m excited to continue exploring new technologies and challenges in the web development field. </p>
+                <a href="#contact">
                 <button className="btn bg-amber-400 text-lg text-gray-800 mt-5">Contact Me</button>
+                </a>
               </div>
             </div>
 

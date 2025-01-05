@@ -4,9 +4,9 @@ import { FaFileDownload } from "react-icons/fa";
 
 const Navbar = () => {
     const links=<>
-    <li><a>About Me</a></li>
-    <li><a>My Projects</a></li>
-    <li><a>Contact Info</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#projects">My Projects</a></li>
+    <li><a href="#contact">Contact Info</a></li>
     </>
     return (
         <div>
@@ -14,7 +14,7 @@ const Navbar = () => {
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden pl-0">
-                            <MdMenuOpen className="text-4xl"></MdMenuOpen>
+                            <MdMenuOpen className="text-4xl text-slate-300"></MdMenuOpen>
                         </div>
                         <ul
                             tabIndex={0}
@@ -30,10 +30,12 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="btn btn-neutral">
+                   <a href="https://docs.google.com/document/d/1SmbpHEZMzeQWxk6aXHOPhLcbKkShlC-Sa4WjzSDcx1o/edit?tab=t.0">
+                   <button className="btn btn-neutral">
                         <p>RESUME</p>
                         <FaFileDownload></FaFileDownload>
                     </button>
+                   </a>
                 </div>
             </div>
             <div className="h-16"></div>
