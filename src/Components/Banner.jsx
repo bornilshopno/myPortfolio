@@ -25,10 +25,11 @@ const Banner = () => {
                         <div className='flex gap-5 w-32 my-2 mx-auto'>
                             <a href="https://www.facebook.com/hopefulmanna/" target="_blank" rel="noopener noreferrer" className="btn btn-sm h-8 px-2"><FaSquareFacebook className='text-xl'></FaSquareFacebook></a>
                             <a href="https://github.com/bornilshopno" target="_blank" rel="noopener noreferrer" className="btn btn-sm h-8 px-2"><FaSquareGithub className='text-xl'></FaSquareGithub></a>
-                            <a href="https://www.linkedin.com/in/md-ashraf-hossain-a8772284/" target="_blank" rel="noopener noreferrer" className="btn btn-sm h-8 px-2"><IoLogoLinkedin className='text-xl'></IoLogoLinkedin></a>
+                            <a href="https://www.linkedin.com/in/md-ashraf-hossain-manna/" target="_blank" rel="noopener noreferrer" className="btn btn-sm h-8 px-2"><IoLogoLinkedin className='text-xl'></IoLogoLinkedin></a>
                         </div>
-                        <a href="https://docs.google.com/document/d/1SmbpHEZMzeQWxk6aXHOPhLcbKkShlC-Sa4WjzSDcx1o/edit?tab=t.0" target="_blank"
+                        <a href="https://drive.google.com/file/d/18X-tuX0rCMiVYUedc7bJ9beGNl2K1jm-/view?usp=sharing" target="_blank"
                             rel="noopener noreferrer">
+                              
                             <button className="btn btn-neutral w-52 mx-auto">
                                 <p>DOWNLOAD RESUME</p>
                                 <FaFileDownload></FaFileDownload>

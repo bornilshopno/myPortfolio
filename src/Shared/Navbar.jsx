@@ -30,7 +30,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                   <a href="https://docs.google.com/document/d/1SmbpHEZMzeQWxk6aXHOPhLcbKkShlC-Sa4WjzSDcx1o/edit?tab=t.0">
+                   <a href="https://drive.google.com/file/d/18X-tuX0rCMiVYUedc7bJ9beGNl2K1jm-/view?usp=sharing" target="_blank"
+                            rel="noopener noreferrer">
                    <button className="btn btn-neutral">
                         <p>RESUME</p>
                         <FaFileDownload></FaFileDownload>

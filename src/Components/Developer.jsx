@@ -23,7 +23,7 @@ const Deveoper = () => {
             <h1 className="mb-5 text-4xl text-slate-300 font-bold">ABOUT ME</h1>
             <hr />
             <div className="flex items-center justify-center gap-5 flex-col md:flex-row pt-5">
-              {/* <img src="https://i.ibb.co.com/gjycxrZ/IMG-6639.jpg" alt="profile" className=" w-24 rounded-3xl border-x-indigo-700 border-y-amber-400 border-2" /> */}
+             
               <div>
                 <p className=" text-slate-400 font-bold text-lg">I’m a junior web developer with a background in textile engineering. After spending 12 years in the textile industry, I realized that my true passion was in coding, which had always intrigued me. Over the last year, I’ve dedicated my time to exploring web development, building a strong foundation in coding and learning new technologies. Now, I’m excited to pursue a career in web development, where I can combine my creativity with technical skills and develop websites and applications that prioritize user experience and functionality. I’m always eager to learn and grow, and I’m excited to continue exploring new technologies and challenges in the web development field. </p>
                 <a href="#contact">
