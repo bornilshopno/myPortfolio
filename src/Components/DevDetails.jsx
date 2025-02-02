@@ -2,6 +2,7 @@ import Marquee from 'react-fast-marquee';
 import photo1 from "../assets/lifestyle-circuit.png"
 import photo2 from "../assets/chill-gamer.png"
 import photo3 from "../assets/gadgetHeaven.png"
+import photo4 from "../assets/medcamps.png"
 import { Link } from 'react-router-dom';
 
 import Aos from 'aos';
@@ -43,7 +44,7 @@ const DevDetails = () => {
             <div id='projects'>
                 <h2 className='text-center text-white bg-gradient-to-t from-gray-400 to-[#495765] py-10 font-bold text-4xl'>Recent Projects</h2>
                
-                <div className="grid gird-cols-1 lg:grid-cols-3 gap-5 px-10 lg:px-20 pb-16 bg-gradient-to-b from-gray-400 to-gray-800">
+                <div className="grid gird-cols-1 lg:grid-cols-2 gap-5 px-10 lg:px-20 pb-16 bg-gradient-to-b from-gray-400 to-gray-800">
                     {/* number-1 */}
                     <div className="card card-compact bg-sky-100  border-2 border-amber-400" data-aos="fade-up"
                         data-aos-duration="3000">
@@ -89,6 +90,22 @@ const DevDetails = () => {
                             <p>Gadget Selling Platform </p>
                             <div className="card-actions justify-end">
                                 <Link to="https://gadget-gallary.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Visit Live Page</Link>
+                            </div>
+                        </div>
+                    </div>
+                    {/* number-4 */}
+                    <div className="card card-compact bg-sky-100  border-2 border-amber-400" data-aos="fade-up"
+                        data-aos-duration="3000">
+                        <figure>
+                            <img
+                                src={photo4} className='h-52'
+                                alt="MedCamps" />
+                        </figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Med Camps</h2>
+                            <p>Medical Camp Management Interface </p>
+                            <div className="card-actions justify-end">
+                                <Link to="https://med-camps.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Visit Live Page</Link>
                             </div>
                         </div>
                     </div>

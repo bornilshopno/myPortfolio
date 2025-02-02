@@ -2,9 +2,7 @@ import emailjs from '@emailjs/browser';
 import { MdEmail } from "react-icons/md";
 import { FaSquarePhone } from "react-icons/fa6";
 import { FaWhatsappSquare } from "react-icons/fa";
-import { TbMessageDown } from "react-icons/tb";
 import { MdDriveFileRenameOutline } from "react-icons/md";
-import { MdMessage } from "react-icons/md";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaRegMessage } from "react-icons/fa6";
 import { FaRegHandPointDown } from "react-icons/fa";
@@ -51,7 +49,7 @@ const ContactMe = () => {
     return (
        <div id='contact'>
 
-        <h2 className="mb-5 mt-5 lg:mt-10 text-4xl text-slate-300 font-bold text-center">CONTACT WITH ME</h2>
+        <h2 className="mb-5 mt-5 lg:mt-10 text-4xl text-slate-300 font-bold text-center">GET IN TOUCH</h2>
       
         <h2 className="text-lg text-slate-500 font-semibold text-center w-10/12 mx-auto max-w-3xl">Please donot hesitate to reach me out with email or whatsapp for any sort of query or feedback. I would love to hear it from you - - - - get in touch!</h2>
        <div className="flex flex-col lg:flex-row text-white text-center items-center justify-center gap-5 py-5"> <p className="flex items-center gap-2 text-blue-600"><MdEmail/> optimisticashraf@gmail.com</p> <p className="flex items-center gap-2 text-green-500"><FaSquarePhone/> <FaWhatsappSquare className=""/> +8801911199697</p></div>
