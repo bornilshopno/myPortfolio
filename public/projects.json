@@ -16,10 +16,12 @@
       "NodeJs",
       "Mongodb"    
     ],
+    "shortDescription": "Medical Camp Management System",
     "description": "This website will serve as a Medical Camp Management System (MCMS) for both the Organizer and the Registered Users equpped with stripe payment options. Also have a landing page and details page for the non registered visitors.",
     "key_features": [
       "Responsive in all devices",
       "User Management",
+      "Separate Interface for Organizers and Users",
       "Payment Procedures",
       "Database Management",
       "Analytics for Registered Users"
@@ -29,13 +31,13 @@
     "improvements": "Will upgrade this website adding multiple payment procedures"
   },
   {
-    "id": 11,
-    "image": "",
-    "thumbnail":"",
-    "projectName": "",
-    "live_link": "",
-    "github_client": "",
-    "github_server": "",
+    "id": 2,
+    "image": "https://i.ibb.co.com/xtWRQCxx/lifestyle-circuit-netlify-app.png",
+    "thumbnail":"https://i.ibb.co.com/Fb9v8XKr/small-lifestyle-circuit.png",
+    "projectName": "LifeStyle Circuit",
+    "live_link": "https://lifestyle-circuit.netlify.app/",
+    "github_client": "https://github.com/bornilshopno/lifeStyle-clientSide-blogWebsite",
+    "github_server": "https://github.com/bornilshopno/lifeStyle-serverSide-blogWebsite",
     "technology": [
       "Html",
       "Tailwind CSS",     
@@ -45,22 +47,27 @@
       "NodeJs",
       "Mongodb"    
     ],
-    "description": "This projects Name WORK-SERVICE. online digital service.our work has very professional work.we are try to our best work for out client.User can add a review a single service.Home page show countup the total user,review,service.",
+    "shortDescription": "Platform for Bloggers & Readers",
+    "description": "Goal of this project to create a web platform where blogger can publish their blog and users can interact on it also. One can register his account with credential to set wishlists and explore in details.",
     "key_features": [
-      "Responsive in all devices"
+      "Responsive in all devices",
+      "User Management",
+     "Comment Section",
+      "Database Management",
+      "Analytics for Registered Users"
     ],
-    "challenges": "",
-    "shortcomings": "",
-    "improvements": ""
+    "challenges": "Database Management is the biggest challange here with real time comments and post publishing",
+    "shortcomings": "Bloggers and Readers are having same interface",
+    "improvements": "Need to show different interface conditionally for bloggers and readers"
   },
   {
-    "id": 11,
-    "image": "",
-    "thumbnail":"",
-    "projectName": "",
-    "live_link": "",
-    "github_client": "",
-    "github_server": "",
+    "id": 3,
+    "image": "https://i.ibb.co.com/J6QRDbp/chill-gamer-site-netlify-app.png",
+    "thumbnail":"https://i.ibb.co.com/Q3ngDJsr/small-chill-gamer.png",
+    "projectName": "Chill Gamer",
+    "live_link": "https://chill-gamer-site.netlify.app/",
+    "github_client": "https://github.com/bornilshopno/chillgamer-client-side",
+    "github_server": "https://github.com/bornilshopno/chillgamer-server-side",
     "technology": [
       "Html",
       "Tailwind CSS",     
@@ -70,37 +77,16 @@
       "NodeJs",
       "Mongodb"    
     ],
-    "description": "This projects Name WORK-SERVICE. online digital service.our work has very professional work.we are try to our best work for out client.User can add a review a single service.Home page show countup the total user,review,service.",
+    "shortDescription": "Platform for Online Game Reviews",
+    "description": "Chill Gamer, a user-friendly game review application. The goal of this project is to design a platform where users can explore and share game reviews. We developed key features such as user authentication and review management to enhance the user experience.",
     "key_features": [
-      "Responsive in all devices"
+      "Responsive in all devices",
+      "User Management",
+      "Database Management",
+      "Watchlist Option"
     ],
     "challenges": "",
-    "shortcomings": "",
-    "improvements": ""
-  },
-  {
-    "id": 11,
-    "image": "",
-    "thumbnail":"",
-    "projectName": "",
-    "live_link": "",
-    "github_client": "",
-    "github_server": "",
-    "technology": [
-      "Html",
-      "Tailwind CSS",     
-      "Javascript",
-      "React",
-      "Firebase",
-      "NodeJs",
-      "Mongodb"    
-    ],
-    "description": "This projects Name WORK-SERVICE. online digital service.our work has very professional work.we are try to our best work for out client.User can add a review a single service.Home page show countup the total user,review,service.",
-    "key_features": [
-      "Responsive in all devices"
-    ],
-    "challenges": "",
-    "shortcomings": "",
-    "improvements": ""
+    "shortcomings": "No adminstratative option to check the reviews first and then publish",
+    "improvements": "Will update the feature shortly to avoid duplicate reviews and checkpoint to find meaningfull reviews only to be published"
   }
 ]

@@ -41,7 +41,7 @@ const DevDetails = () => {
                     </div>
                 </Marquee>
             </div>
-            <Project></Project>
+          
 
         <ProjectLayout></ProjectLayout>
             

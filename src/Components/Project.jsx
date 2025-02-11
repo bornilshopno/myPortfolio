@@ -5,6 +5,7 @@ import photo3 from "../assets/gadgetHeaven.png"
 import photo4 from "../assets/medcamps.png"
 
 const Project = () => {
+    //previous file
     return (
         <div id='projects'>
         <h2 className='text-center text-white bg-gradient-to-t from-gray-400 to-[#495765] py-10 font-bold text-4xl'>Recent Projects</h2>
