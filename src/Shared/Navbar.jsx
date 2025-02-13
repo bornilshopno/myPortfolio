@@ -13,7 +13,7 @@ const Navbar = () => {
         <li><Link to="projects" smooth={true} duration={500}>My Projects</Link></li>
         <li><Link to="contact" smooth={true} duration={500}>Contact Info</Link></li>
     </>:
-    <li> <DomLink to={"/"}>Return to Portfolio Home</DomLink> </li>
+    <li> <DomLink to={"/"}>Return to Portfolio Page</DomLink> </li>
      )
     return (
         <div>
