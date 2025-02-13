@@ -2,17 +2,19 @@ import logo from "../assets/navbar_logo.jpg"
 import { MdMenuOpen } from "react-icons/md";
 import { FaFileDownload } from "react-icons/fa";
 import { Link } from "react-scroll";
-import { Link as DomLink } from "react-router-dom";
+import { Link as DomLink, useLocation } from "react-router-dom";
 
 const Navbar = () => {
-    const links = <>
-        {/* <li><a href="#about">About Me</a></li>
-    <li><a href="#projects">My Projects</a></li>
-    <li><a href="#contact">Contact Info</a></li> */}
+    const location=useLocation()
+    console.log(location)
+    const links =  ( location.pathname === "/" ?
+        <>
         <li><Link to="about" smooth={true} duration={500}>About Me</Link></li>
         <li><Link to="projects" smooth={true} duration={500}>My Projects</Link></li>
         <li><Link to="contact" smooth={true} duration={500}>Contact Info</Link></li>
-    </>
+    </>:
+    <li> <DomLink to={"/"}>Return to Portfolio Home</DomLink> </li>
+     )
     return (
         <div>
             <div className="navbar bg-gray-900 fixed z-50 border-b">
